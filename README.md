@@ -18,3 +18,6 @@ See the top cell for configuration options.
 Open the file `ClientRewrite.ipynb`, select the virtual environment kernel, and run all cells.
 
 See the top cell for configuration options.
+
+### Backdoor Client
+This client requires some additional knowledge, the client count. Eta should remain 1. Further it can be configured which label the backdoor client should remap.
