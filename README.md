@@ -1,5 +1,5 @@
 # ATSP Project
-A full rewrite of the federated learning enviroment we were provided, which did not work and was undocumented.
+A full rewrite of the federated learning enviroment we were provided, which did not work and was undocumented. Together with two Scaling attacks.
 
 ## Configuration
 The server dictates how many clients are expected, then this many client notebooks should be ran (in parallel).
@@ -19,5 +19,5 @@ Open the file `ClientRewrite.ipynb`, select the virtual environment kernel, and 
 
 See the top cell for configuration options.
 
-### Backdoor Client
-This client requires some additional knowledge, the client count. Eta should remain 1. Further it can be configured which label the backdoor client should remap.
+### Backdoor Clients
+These clients requires some additional knowledge, the client count. Eta should remain 1. Further it can be configured which label the backdoor clients should remap.
